@@ -34,6 +34,7 @@ class RVAdapter (val context : Context, val List : MutableList<ContentsModel>) :
     override fun getItemCount(): Int {
         return List.size
     }
+
     inner class ViewHolder (itemView : View) : RecyclerView.ViewHolder(itemView) {
         fun bindItems (item : ContentsModel) {
             val rv_text = itemView.findViewById<TextView>(R.id.rvTextArea)
@@ -41,6 +42,7 @@ class RVAdapter (val context : Context, val List : MutableList<ContentsModel>) :
 
             rv_text.text = item.titleText
 
+            // 이미지 가져오기
             Glide.with(context)
                 .load (item.imageUrl)
                 .into (rv_img)

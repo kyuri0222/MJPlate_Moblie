@@ -18,12 +18,14 @@ class SplashActivity : AppCompatActivity() {
         auth = Firebase.auth
         if (auth.currentUser?.uid == null) {
             // Need Join User
+            // 회원가입이 안 되어있으므로 -> JoinActivity
             Handler().postDelayed({
                 startActivity(Intent(this, JoinActivity::class.java))
                 finish()
             }, 1000)
         } else {
             // Already User
+            // 회원가입이 되어있으므로 -> MainActivity
             Handler().postDelayed({
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()

@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
+    // contents model이 들어갈 리스트
     private val items = mutableListOf<ContentsModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -106,7 +107,6 @@ class MainActivity : AppCompatActivity() {
                 "런드린즈"
             )
         )
-
 
         val recyclerView = findViewById<RecyclerView>(R.id.rv)
         val rvAdapter = RVAdapter(baseContext, items)

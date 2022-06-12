@@ -39,8 +39,5 @@ class ViewActivity : AppCompatActivity() {
                 .push()
                 .setValue(ContentsModel(url, imageUrl, title))
         }
-
-
-
     }
 }
