@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373339138923",
+    "project_id": "mjplate-37005",
+    "storage_bucket": "mjplate-37005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373339138923:android:fb25df9d12f20da613ba2e",
+        "android_client_info": {
+          "package_name": "com.example.mjplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373339138923-31jc5een25g560h8u85ln2b0ma9utu11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTKlvtvAK7LKAKxDSSTf0E3JCSZLz7PPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373339138923-31jc5een25g560h8u85ln2b0ma9utu11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

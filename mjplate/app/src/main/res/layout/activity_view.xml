@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    android:background="#F1D3B6"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ViewActivity">
 
     <TextView
-        android:padding="7dp"
-        android:background="@drawable/radius"
-        android:id="@+id/bookmarkBtn"
-        android:textStyle="bold"
+        android:id="@+id/bookmarkSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bookmark"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
+        android:text="@string/save"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </TextView>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv"
+    <WebView
         android:layout_marginTop="50dp"
+        android:id="@+id/webView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </androidx.recyclerview.widget.RecyclerView>
+    </WebView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

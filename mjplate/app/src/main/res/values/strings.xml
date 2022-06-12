@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">mjplate</string>
+    <string name="logo">MJ\nPLATE</string>
+    <string name="bookmark">즐겨찾기</string>
+    <string name="email">이메일</string>
+    <string name="password">패스워드</string>
+    <string name="join">회원가입</string>
+    <string name="save">저장</string>
+
 </resources>
